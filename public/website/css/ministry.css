@@ -1,0 +1,35 @@
+.col-md-7
+      {
+        position:relative;
+        min-height:1px;
+        padding-right:15px;
+        padding-left:15px;
+        float:left;
+        width:58.33333333%;
+      }
+
+      .lead
+      {
+        margin-bottom:20px;
+        font-size:16px;
+        font-weight:300;
+        line-height:1.4;
+      }
+
+      @media (min-width:768px){.lead{font-size:21px}}
+
+      .col-md-5
+      {
+        position:relative;
+        min-height:1px;
+        padding-right:15px;
+        padding-left:15px;
+      }
+
+      @media (min-width:992px){.col-md-5{float:left}
+
+      .col-md-5{width:41.66666667%}
+
+      .col-md-push-5{left:41.66666667%}
+
+      .col-md-pull-7{right:58.33333333%}
